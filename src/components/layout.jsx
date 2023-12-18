@@ -1,5 +1,5 @@
 import NavBar from "./FrontEnd/NavBar";
-import SidebarSalas from "./FrontEnd/SidebarSalas";
+import Sidebar from "./FrontEnd/Sidebar";
 import Chat from "./FrontEnd/chat";
 
 export default function DefaultLayout(){
@@ -11,7 +11,7 @@ export default function DefaultLayout(){
             </header>
                 <div className="h-full flex w-full max-w-full">
                     <div className=" bg-white w-[38%] lg:w-[30%] h-full overflow-y-scroll sideBar pb-28">
-                           <SidebarSalas/>
+                           <Sidebar/>
                     </div>
                     
                     <div className="bg- bg-[#fffaf6] w-[62%] lg:w-[70%] max-w-full ">
