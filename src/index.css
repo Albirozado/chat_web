@@ -41,18 +41,3 @@ html{
     overflow-y: hidden;
 }
 
-.chatmensage::-webkit-scrollbar{
-    width: .9rem;
-
-}
-
-.chatmensage::-webkit-scrollbar-track{
-    background: transparent;
-}
-
-
-.chatmensage::-webkit-scrollbar-thumb{
-    background: #da8609;
-    border-radius: 3rem;
-}
-

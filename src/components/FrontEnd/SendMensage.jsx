@@ -4,7 +4,7 @@ import { TbPhotoFilled } from "react-icons/tb";
 export default function SendMensage(){
     return(
   
-    <div class="bg-white px-4 py-3 ">
+    <div class="bg-white px-4 pb-[52px] pt-2 md:py-3 ">
         <div class="b bg-slate-100 pr-2 py-2 flex items-center rounded-full border-[1.5px] border-[#ccc] border-solid">
             <input class="w-full font-normal text-gray-600 outline-none py-2 px-4 mr-15 bg-transparent" type="text" placeholder="Type your message..."
             value="A rendered mockup of a carryng bag with colorful handles. The PSD file lets you change the colors..."
