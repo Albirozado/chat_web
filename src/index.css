@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.underliMode{
+   position: relative; 
+}
+
+.underliMode:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+
+    border-width: 0 0 2.5px;
+    border-style: solid;
+    border-color: #f59300;
+}
+
+
+
+
+.sideBar::-webkit-scrollbar{
+    width: .3rem;
+
+}
+
+.sideBar::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+.sideBar::-webkit-scrollbar-thumb{
+    background: #fcdaa8;
+    border-radius: 5rem;
+}
+html{
+    overflow-y: hidden;
+}
+
+.chatmensage::-webkit-scrollbar{
+    width: .9rem;
+
+}
+
+.chatmensage::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+.chatmensage::-webkit-scrollbar-thumb{
+    background: #da8609;
+    border-radius: 3rem;
+}
+
