@@ -39,7 +39,7 @@ export default function Chat(){
       <div className="chat-message px-4">
          <div className="flex items-star mb-3 ">
             <div className="ml-5 flex flex-col space-y-2 text-xs w-[55%] max-w-full mx-2 order-2 items-start">
-               <p className="text-[15.5px] font-bold tracking-tighter text-gray-500">Tomas Carlos</p>
+               <p className="text-[15.5px] font-bold tracking-tighter text-gray-500">Guilherme Norma</p>
                <div><span className="shadow-md px-5 py-3 rounded-lg rounded-tl-none inline-block bg-white text-gray-600 font-medium  text-[14.5px] tracking-wide leading-[1.4]">Command was run with root privileges. I'm sure about that. 
                   <p className="text-end text-[12px] font-normal text-gray-400 mt-1">11:23 min</p>
                </span>
@@ -52,7 +52,7 @@ export default function Chat(){
       <div className="chat-message px-4">
          <div className="flex items-star mb-3">
             <div className="ml-5 flex flex-col space-y-2 text-xs w-[55%] max-w-full mx-2 order-2 items-start">
-               <p className="text-[15.5px] font-bold tracking-tighter text-gray-500">Tomas Carlos</p>
+               <p className="text-[15.5px] font-bold tracking-tighter text-gray-500">Adolfo Mauro</p>
                <div><span className="shadow-md px-5 py-3 rounded-lg rounded-tl-none inline-block bg-white text-gray-600 font-medium  text-[14.5px] tracking-wide leading-[1.4]">Command was run with root privileges. I'm sure about that. 
                   <p className="text-end text-[12px] font-normal text-gray-400 mt-1">11:23 min</p>
                </span>
@@ -78,7 +78,7 @@ export default function Chat(){
       <div className="chat-message px-4">
          <div className="flex items-star mb-3 justify-end">
             <div className="ml-5 flex flex-col space-y-2 text-xs max-w-full w-[55%] mx-2 order-1 items-star">
-               <p className="text-end text-[15.5px] font-bold tracking-tighter text-gray-500">Tomas Carlos</p>
+               <p className="text-end text-[15.5px] font-bold tracking-tighter text-gray-500">Aderito Tegalio</p>
                <div><span className="shadow-md px-5 py-3 rounded-lg rounded-tl-none inline-block bg-white text-gray-600 font-medium  text-[14.5px] tracking-wide leading-[1.4]">Thanks Any updates on this issue? I'm getting the same error when trying to install devtools. Thanks 
                   <p className="text-end text-[12px] font-normal text-gray-400 mt-1">11:23 min</p>
                </span>
