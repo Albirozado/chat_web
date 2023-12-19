@@ -17,12 +17,12 @@ export default function NavBar({openSide, setOpenSIde}){
                 </div>
                 <div>
                     <ul className="flex items-center">
-                        <li className="flex items-center mr-2 md:mr-3">
-                            <BsFillCameraVideoFill className="text-[22px] mr-[2px] md:text-[28px] md:mr-1"/>
-                            <FaAngleDown className="text-[15px] md:text-[18px]"/>
+                        <li className="flex items-center mr-3 ">
+                            <BsFillCameraVideoFill className="text-[25px] mr-[2px] md:text-[28px] md:mr-1"/>
+                            <FaAngleDown className="text-[18px] md:text-[18px]"/>
                         </li>
-                        <li><IoSearchOutline    className="text-[22px] md:text-[28px] "/></li>
-                        <li><SlOptionsVertical   className="ml-2 text-[15px] md:text-[20px]"/></li>
+                        <li><IoSearchOutline    className="text-[25px]   md:text-[28px] "/></li>
+                        <li><SlOptionsVertical   className="ml-2 text-[18px] md:text-[20px]"/></li>
                     </ul>
 
                 </div>
@@ -31,8 +31,8 @@ export default function NavBar({openSide, setOpenSIde}){
             <div className="block md:hidden">
                 <Divider className="bg-gray-50 h-[1px] my-2"/>
                 <div className="text-white pb-2 px-5 md:px-8">
-                        <h5 className="text-xl leading-5 font-[700] tracking-tighter  md:text-2xl">Comunicade da Pratica Daca</h5>
-                        <span className="text-lg font-medium md:text-lg">12 membros</span>
+                        <h5 className="text-lg leading-5 font-[700] tracking-tighter  md:text-2xl">Comunicade da Pratica Daca</h5>
+                        <span className="te text-base font-medium md:text-lg">12 membros</span>
                 </div>
             </div>
 

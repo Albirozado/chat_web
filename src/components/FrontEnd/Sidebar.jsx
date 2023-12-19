@@ -13,21 +13,21 @@ export default function Sidebar(){
                 <nav className= {searchBar ? "pt-[14px] " : "pt-5 pb-2"}>
                     <div className={searchBar ? "hidden" : "flex justify-between pr-5 pl-8 "}>
                         <div className="flex items-center cursor-pointer" onClick={()=>setOnShow(true)}>
-                            <h2 className={onShow ? "text-xl capitalize text-[#f59300] font-semibold underliMode mr-2" : "text-xl capitalize font-semibold mr-2 text-gray-800 tracking-tight"} >salas</h2>
+                            <h2 className={onShow ? "text-[19px] md:text-xl capitalize text-[#f59300] font-semibold underliMode mr-2" : "text-[19px] md:text-xl capitalize font-semibold mr-2 text-gray-800 tracking-tight "} >salas</h2>
                             <span className={onShow ? "text-xs bg-[#f59300] px-[6px] py-[2px] rounded-full  text-white font-bold" : "text-xs bg-gray-300 px-[6px] py-[2px] rounded-full  text-black font-bold"}>5</span>
                         </div>
                         <div className="flex items-center cursor-pointer " onClick={()=>setOnShow(false)}>
-                            <h2 className={onShow ? "text-xl capitalize font-semibold mr-2 text-gray-800 tracking-tight" : "text-xl capitalize text-[#f59300] font-semibold underliMode mr-2"} >membros</h2>
+                            <h2 className={onShow ? "text-[19px] md:text-xl capitalize font-semibold mr-2 text-gray-800 tracking-tight" : "text-[19px] md:text-xl capitalize text-[#f59300] font-semibold underliMode mr-2"} >membros</h2>
                             <span className= {onShow ? "text-xs bg-gray-300 px-[6px] py-[2px] rounded-full  text-black font-bold" : "text-xs bg-[#f59300] px-[6px] py-[2px] rounded-full  text-white font-bold"}>9</span>
                         </div>
                         <div>
-                            <BiSearch size={27} className="text-gray-800 cursor-pointer" onClick={()=>setSearchBar(true)}/>
+                            <BiSearch  className="text-[26px] md:text-[27px] text-gray-800 cursor-pointer" onClick={()=>setSearchBar(true)}/>
                         </div>
                     </div>
                     {searchBar ? <SearchBar searchBar = {searchBar} setSearchBar = {setSearchBar}/> : null}
                     
                 </nav>
-            <section className="pb-16 md:pb-0">
+            <section className="pb-16 md:pb-0" >
                 <div className={onShow ? null : "hidden"}>
                     <Salas />
                 </div>

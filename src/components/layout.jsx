@@ -18,7 +18,7 @@ export default function DefaultLayout(){
                     </div>
                     
                     <div className="bg-[#fffaf6] w-[100%] md:w-[62%] lg:w-[70%]  max-w-full" >
-                        <Chat/>
+                        <Chat setOpenSIde = {setOpenSIde}/>
                     </div>
                 </div>
         </section>

@@ -12,7 +12,7 @@ export default function Salas(){
                             <span className=" text-[#747474] text-[40px]">{s.fotoperfil}</span>
                         </div>
                         <div className="px-3">
-                            <p className="text-lg font-bold text-gray-600 tracking-tight">{s.nome}</p>
+                            <p className="text-base font-bold text-gray-600 tracking-tight md:text-lg">{s.nome}</p>
                             <span className="text-gray-500 font-medium tracking-tight">{s.membros} membros</span>
                         </div>
                     </div>

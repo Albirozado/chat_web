@@ -1,8 +1,8 @@
 import { FaArrowUp } from "react-icons/fa6";
 import SendMensage from "./SendMensage";
-export default function Chat(){
+export default function Chat({setOpenSIde}){
     return(
-        <div className="flex-1 p:2  justify-between flex flex-col h-screen pb-20 overflow-hidden  ">
+        <div className="flex-1 p:2  justify-between flex flex-col h-screen pb-20 overflow-hidden  " onClick={()=>{setOpenSIde(false)}}>
 
    <div id="messages" className="flex flex-col space-y-4 p-3 overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch">
    <div className="flex justify-center pt-6 pb-4    md:pt-8 md:pb-6">
